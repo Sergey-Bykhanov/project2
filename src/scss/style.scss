@@ -1,0 +1,19 @@
+@import "./_nonestele.scss";//---------------------обнуление --
+//---------------------константы и формулы--
+$maxWidth: 1580;//---------------------ширена разделов --
+@mixin adaptiv-font($pcSize, $mobSize) {
+ $addSize: $pcSize - $mobSize;
+ $maxWidth: $maxWidth - 320;
+ font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
+}//--адаптив текста --
+//---------------------константы и формулы --
+@import "../header/_header.scss";// ---------------шапка ------
+@import "../section 1/_content1.scss";// ----------лаздел1 ----
+@import "../section 2/_content2.scss";// ----------лаздел2 ----
+@import "../section 3/_content3.scss";// ----------лаздел3 ----
+@import "../section 4/_content4.scss";// ----------лаздел4 ----
+@import "../section 5/_content5.scss";// ----------лаздел5 ----
+@import "../section 6/_content6.scss";// ----------лаздел6 ----
+@import "../section 7/_content7.scss";// ----------лаздел7 ----
+@import "../footer/_footer.scss";// ---------------подвал -----
+
