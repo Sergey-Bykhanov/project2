@@ -1,0 +1,74 @@
+.wra{
+	min-height: 100%;
+	overflow: hidden;
+}
+.exa_background{
+    z-index: 3;
+    width: 100%;
+    height: 657px;
+   background-color: #73acc7;
+
+   
+}
+/* главный блок */
+.exa{
+	padding: 200px 0px ;/* отступ сверху низу */
+}
+/* блок для ограничения*/
+.exa_cont{
+	padding: 0px 15px ;/* отступ безопасности слева справа */
+	margin: 0px auto;/* выравнивания по центру */
+	max-width: 95.625rem;/* максимальная ширена ограничешего контейнера по макету 1020рх+отступ по 15 с стороны тойсть 30рх и эио разделить на 16 размер шривта по умалчанию */
+	position: relative;/* чтобы относительно его позиционирывать */
+}
+
+.exa_items{
+	display: flex ; 
+	flex-wrap: wrap;
+	grid-row-gap:  24px;
+	margin: 0px -12px;
+	
+}
+.exa_item{
+	padding: 0px 12px;
+		flex: 1 1 20%;
+	min-width: 18.125rem;/* 290 на 16размер шривта */
+}
+.items-exa_body{
+    position: relative;
+    width: 447px;
+    height: 490px;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+.size3{
+    width: 447px;
+    height: 490px;
+}
+.size1{
+    width: 570px;
+    height: 430px;
+}
+.size2{
+    width: 424px;
+    height: 312px;
+}
+.items-sabtext{
+    font-family: 'Amatic SC';
+font-size: 41.7px;
+line-height: 45px;
+font-weight: 700;
+color: #452a31;
+}
+.items-sabtext span{
+    
+    color: #0072a8;
+}
+.items-text{
+    position: absolute;
+    top: 50%;
+    font-family: 'Amatic SC';
+font-size: 66.3px;
+line-height: 1.2;
+font-weight: 700;
+color: #0072a8;
+}
