@@ -1,6 +1,6 @@
 @import "./_nonestele.scss";//---------------------обнуление --
 //---------------------константы и формулы--
-$maxWidth: 1580;//---------------------ширена разделов --
+$maxWidth: 1440;//---------------------ширена разделов --
 @mixin adaptiv-font($pcSize, $mobSize) {
  $addSize: $pcSize - $mobSize;
  $maxWidth: $maxWidth - 320;
@@ -16,4 +16,13 @@ $maxWidth: 1580;//---------------------ширена разделов --
 @import "../section 6/_content6.scss";// ----------лаздел6 ----
 @import "../section 7/_content7.scss";// ----------лаздел7 ----
 @import "../footer/_footer.scss";// ---------------подвал -----
-
+body{
+	line-height: 1;
+	background-color: #4b2424;
+	color: #3d3d3d;
+	font-family:Montserrat;
+}
+.wrapper{
+	min-height: 100%;
+	overflow: hidden;
+}
