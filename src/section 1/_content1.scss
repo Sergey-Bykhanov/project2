@@ -1,6 +1,6 @@
 .wra{
 	min-height: 100%;
-	overflow: hidden;
+
 }
 .exa_background{
     z-index: 3;
@@ -51,24 +51,36 @@
 .size2{
     width: 424px;
     height: 312px;
+    margin: 20px 20px 20px 20px;
 }
 .items-sabtext{
+    margin: 0px 0px 0px 50px;
     font-family: 'Amatic';
 font-size: 41.7px;
 line-height: 45px;
 font-weight: 700;
 color: #452a31;
+width: 300px;
 }
 .items-sabtext span{
     
     color: #0072a8;
 }
 .items-text{
+    width: 360px;
     position: absolute;
-    top: 50%;
+    top: 17%;
+    font-weight: 200;
+    left: 50px;
     font-family: 'Amatic';
 font-size: 66.3px;
 line-height: 1.2;
 font-weight: 700;
 color: #0072a8;
+transform: rotate(-10deg);
+    transform-origin: 225px 0px 145px;
 }
+.items-text span{
+    margin-top: 50px;
+    margin-left:70px;
+  }
