@@ -7,6 +7,7 @@ $maxWidth: 1440;//---------------------ширена разделов --
  $maxWidth: $maxWidth - 320;
  font-size: calc(#{$mobSize + px} + #{$addSize} * ((100vw - 320px) / #{$maxWidth}));
 }//--адаптив текста --
+
 //---------------------константы и формулы --
 @import "../header/_header.scss";// ---------------шапка ------
 @import "../section 1/_content1.scss";// ----------лаздел1 ----
@@ -64,7 +65,7 @@ body{
     opacity: 1;
     visibility: visible;
  }
- img {
+ .exa_items img {
    position: absolute;
    left: 0;
    top: 0;

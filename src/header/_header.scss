@@ -21,21 +21,29 @@
 	z-index:3;
 }
 .header_body{
+	
 	margin: 0px 32px;
 	position: relative; 
 	display: flex;
 	justify-content: space-between;
-	height: 80px;
+	height: 110px;
 	align-items: center;
 }
 .header_logo{
 	position: relative;
 	z-index: 3;
 	flex: 0 0 60px;
+	
+height: 64px; 
+
 }
 .header_logo img{
-	max-width: 250%;
+	width: 256px;
+height: 64px;
+	
+	max-width: 300%;
 	display: block;
+	margin-left: 70px;
 }
 .header_burger{
 	display: none;
@@ -61,15 +69,15 @@ color: #ffffff;
 	text-decoration: none;
 }
 .header_link:hover{
-	color: #F88500;
+	color: #0072a8;
 }
 
 @media (max-width:767px){
 	.header_link:hover{
-		color: #ffffff;
+		color: #0072a8;
 	}
 	.header_link{
-		color: #F88500;
+		color: #ffffff;
 	}
 	body.lock{
 		overflow: hidden;
