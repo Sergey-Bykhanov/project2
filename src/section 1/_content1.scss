@@ -1,15 +1,17 @@
 .wra {
   min-height: 100%;
 }
-.exa_background {
-  z-index: 3;
-  width: 100%;
-  height: 657px;
-  background: linear-gradient(
-    87deg,
-    rgba(186, 223, 241, 1) 0%,
-    rgba(113, 171, 198, 1) 100%
-  );
+.chapter_1 {
+  .exa_background {
+    z-index: 3;
+    width: 100%;
+    height: 657px;
+    background: linear-gradient(
+      87deg,
+      rgba(186, 223, 241, 1) 0%,
+      rgba(113, 171, 198, 1) 100%
+    );
+  }
 }
 /* главный блок */
 .exa {
@@ -41,43 +43,61 @@
   height: 490px;
   padding-top: 56.25%; /* 16:9 Aspect Ratio */
 }
-.s1,
-.s2,
-.s3 {
-  width: 447px;
-}
-.s3 {
-  margin: 0px 00px 0px 10px;
-  margin: 0px 00px 0px 75px;
-}
-.size0 {
-  width: 491px;
-  height: 472px;
-  position: relative;
+.chapter_1 {
+  .column_1,
+  .column_2,
+  .column_3 {
+    width: 447px;
+  }
+  .column_3 {
+    margin: 0px 00px 0px 75px;
+  }
+  .column_1 {
+    .point-size_1 {
+      width: 491px;
+      height: 472px;
+      position: relative;
 
-  left: 3%;
-  transform: translate(2%, 40px);
+      left: 3%;
+      transform: translate(2%, 40px);
+    }
+  }
+  .column_2 {
+    .point-size_2 {
+      width: 570px;
+      height: 430px;
+      position: relative;
+      left: -20px;
+    }
+    .point-size_3 {
+      position: relative;
+      width: 424px;
+      height: 312px;
+      margin: 20px 20px 20px 20px;
+      &:before {
+        content: "";
+        background: url("./../images/5.png") 0 0/100% no-repeat;
+        position: absolute;
+        right: 30px;
+        width: 565px; /* 153 ширена по макету делим на блок 1050 и умнажаем на 100 */
+        padding-top: 152px; /* 241 высота по макету делим на блок 1050 и умнажаем на 100 */
+        top: 10px;
+        left: -50px;
+      }
+    }
+  }
+  .column_3 {
+    .point-size_4 {
+      width: 447px;
+      height: 490px;
+      position: relative;
+      left: 103%;
+      transform: translate(-100%, -7%);
+    }
+  }
 }
-.size3 {
-  width: 447px;
-  height: 490px;
-  position: relative;
-  left: 103%;
-  transform: translate(-100%, -7%);
-}
-.size1 {
-  width: 570px;
-  height: 430px;
-  position: relative;
-  left: -20px;
-}
-.size2 {
-  position: relative;
-  width: 424px;
-  height: 312px;
-  margin: 20px 20px 20px 20px;
-}
-.items-sabtext {
+
+.chapter_1-text1 {
   margin: 0px 0px 0px 50px;
   font-family: "Amatic";
   font-size: 41.7px;
@@ -85,11 +105,11 @@
   font-weight: 700;
   color: #452a31;
   width: 300px;
+  span {
+    color: #0072a8;
+  }
 }
-.items-sabtext span {
-  color: #0072a8;
-}
-.items-text {
+.chapter_1-text2 {
   width: 360px;
   position: absolute;
   top: 17%;
@@ -102,39 +122,28 @@
   color: #0072a8;
   transform: rotate(-10deg);
   transform-origin: 225px 0px 145px;
+  span {
+    margin-top: 50px;
+    margin-left: 70px;
+  }
 }
-.items-text span {
-  margin-top: 50px;
-  margin-left: 70px;
-}
-.size2::before {
-  content: "";
-  background: url("./../images/5.png") 0 0/100% no-repeat;
-  position: absolute;
-  right: 30px;
-  width: 565px; /* 153 ширена по макету делим на блок 1050 и умнажаем на 100 */
-  padding-top: 152px; /* 241 высота по макету делим на блок 1050 и умнажаем на 100 */
-  top: 10px;
-  left: -50px;
-}
+
 @media (max-width: 1438px) {
   .exa_item {
     flex: 0 0 auto;
   }
-  .exa_background {
+  .chapter_1 .exa_background {
     height: 1139px;
   }
-  .s3 {
+  .chapter_1 .column_3 {
     position: relative;
     left: 30vw;
   }
-  .size1 {
-  
-   
+  .chapter_1 .column_2 .point-size_2 {
     left: -140px;
   }
-  .s2 {
+  .chapter_1 .column_2 {
     margin: 0px 00px 0px 10px;
-  margin: 0px 00px 0px 115px;
+    margin: 0px 00px 0px 115px;
   }
 }
