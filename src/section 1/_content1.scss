@@ -12,11 +12,12 @@
       rgba(113, 171, 198, 1) 100%
     );
   }
+  .exa {
+    padding: 200px 0px; /* отступ сверху низу */
+  }
 }
 /* главный блок */
-.exa {
-  padding: 200px 0px; /* отступ сверху низу */
-}
+
 /* блок для ограничения*/
 .exa_cont {
   padding: 0px 15px; /* отступ безопасности слева справа */
@@ -47,7 +48,7 @@
   .column_1,
   .column_2,
   .column_3 {
-    width: 447px;
+    width: 445px;
   }
   .column_3 {
     margin: 0px 00px 0px 75px;

@@ -264,11 +264,11 @@ a :active {
   background: -o-linear-gradient(3deg, #badff1 0%, #71abc6 100%);
   background: linear-gradient(87deg, #badff1 0%, #71abc6 100%); }
 
-/* главный блок */
-.exa {
+.chapter_1 .exa {
   padding: 200px 0px;
   /* отступ сверху низу */ }
 
+/* главный блок */
 /* блок для ограничения*/
 .exa_cont {
   padding: 0px 15px;
@@ -310,7 +310,7 @@ a :active {
 .chapter_1 .column_1,
 .chapter_1 .column_2,
 .chapter_1 .column_3 {
-  width: 447px; }
+  width: 445px; }
 
 .chapter_1 .column_3 {
   margin: 0px 00px 0px 75px; }
@@ -404,52 +404,51 @@ a :active {
     margin: 0px 00px 0px 10px;
     margin: 0px 00px 0px 115px; } }
 
-.chapter_2 .column_1,
+.chapter_2 .exa_background {
+  z-index: 3;
+  width: 100%;
+  height: 500px; }
+
+.chapter_2 .exa {
+  padding: 65px 00px 60px 0px;
+  /* отступ сверху низу */ }
+
+.chapter_2 .column_1 {
+  width: 475px; }
+
 .chapter_2 .column_2,
 .chapter_2 .column_3 {
-  width: 447px; }
+  width: 433px; }
 
 .chapter_2 .column_3 {
   margin: 0px 00px 0px 75px; }
 
 .chapter_2 .column_1 .point-size_1 {
-  width: 491px;
+  width: 475px;
   height: 472px;
-  position: relative;
-  left: 3%;
-  -webkit-transform: translate(2%, 40px);
-  -ms-transform: translate(2%, 40px);
-  transform: translate(2%, 40px); }
+  position: relative; }
 
 .chapter_2 .column_2 .point-size_2 {
-  width: 570px;
+  width: 350px;
   height: 430px;
   position: relative;
-  left: -20px; }
+  left: 20px;
+  margin: 80px 0px 0px 0px; }
 
-.chapter_2 .column_2 .point-size_3 {
+.chapter_2 .column_3 .point-size_3 {
+  width: 350px;
   position: relative;
-  width: 424px;
-  height: 312px;
-  margin: 20px 20px 20px 20px; }
-
-.chapter_2 .column_3 .point-size_4 {
-  width: 447px;
-  height: 490px;
-  position: relative;
-  left: 103%;
-  -webkit-transform: translate(-100%, -7%);
-  -ms-transform: translate(-100%, -7%);
-  transform: translate(-100%, -7%); }
+  margin: 56px 0px 0px 0px; }
 
 .chapter_2-text1 {
-  font-family: Montserrat;
+  font-family: "Montserrat";
   font-size: 20.9px;
   line-height: 33px;
   font-weight: 400;
   color: #3d3d3d; }
 
 .chapter_2-text2 {
+  margin: 20px 00px 0px 0px;
   font-family: "Montserrat";
   font-size: 16.7px;
   line-height: 33px;
