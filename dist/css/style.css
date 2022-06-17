@@ -73,19 +73,19 @@ a :active {
   font-style: normal; }
 
 @font-face {
-  src: url("../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf") format("Montserrat");
+  src: url("../fonts/Montserrat/Montserrat-Regular.ttf") format("woff2");
   font-family: "Montserrat";
   font-weight: 400;
   font-style: normal; }
 
 @font-face {
-  src: url("..fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf") format("Montserrat");
+  src: url("../fonts/Montserrat/Montserrat-SemiBold.ttf") format("woff2");
   font-family: "Montserrat";
   font-weight: 600;
   font-style: normal; }
 
 @font-face {
-  src: url("..fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf") format("Montserrat");
+  src: url("../fonts/Montserrat/Montserrat-Bold.ttf") format("woff2");
   font-family: "Montserrat";
   font-weight: 700;
   font-style: normal; }
@@ -410,7 +410,7 @@ a :active {
   height: 500px; }
 
 .chapter_2 .exa {
-  padding: 65px 00px 60px 0px;
+  padding: 115px 00px 60px 0px;
   /* отступ сверху низу */ }
 
 .chapter_2 .column_1 {
@@ -428,11 +428,16 @@ a :active {
   height: 472px;
   position: relative; }
 
+.chapter_2 .column_1 img {
+  position: absolute;
+  left: -21px;
+  top: -54px; }
+
 .chapter_2 .column_2 .point-size_2 {
-  width: 350px;
+  width: 440px;
   height: 430px;
   position: relative;
-  left: 20px;
+  left: 90px;
   margin: 80px 0px 0px 0px; }
 
 .chapter_2 .column_3 .point-size_3 {
@@ -441,13 +446,33 @@ a :active {
   margin: 56px 0px 0px 0px; }
 
 .chapter_2-text1 {
+  position: absolute;
+  z-index: 9;
+  top: 60px;
+  left: 220px;
+  font-family: "Montserrat";
+  font-size: 41.7px;
+  line-height: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #452a31; }
+  .chapter_2-text1 p:nth-child(2) {
+    margin: 10px 0px 0px 0px;
+    font-size: 100px;
+    letter-spacing: -0.02em;
+    color: #2ea2d0; }
+    .chapter_2-text1 p:nth-child(2) span {
+      text-transform: lowercase; }
+
+.chapter_2-text2 {
   font-family: "Montserrat";
   font-size: 20.9px;
   line-height: 33px;
   font-weight: 400;
   color: #3d3d3d; }
 
-.chapter_2-text2 {
+.chapter_2-text3 {
   margin: 20px 00px 0px 0px;
   font-family: "Montserrat";
   font-size: 16.7px;
