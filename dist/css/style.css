@@ -482,6 +482,34 @@ a :active {
   letter-spacing: 0.16em;
   color: #2ea2d0; }
 
+.chapter_3 .exa_cont {
+  padding: 0px 15px;
+  /* отступ безопасности слева справа */
+  margin: 0px auto;
+  /* выравнивания по центру */
+  max-width: 65.625rem;
+  /* максимальная ширена ограничешего контейнера по макету 1020рх+отступ по 15 с стороны тойсть 30рх и эио разделить на 16 размер шривта по умалчанию */ }
+
+.chapter_3-boxtext {
+  margin: 0px 0px 25px 0px;
+  max-width: 46.875rem; }
+
+.chapter_3-text1 {
+  font-family: 'Amatic SC';
+  font-size: 33.4px;
+  line-height: 66px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: #ffffff; }
+
+.chapter_3-text2 {
+  font-family: "Montserrat";
+  font-size: 20.9px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #ffffff; }
+
 body {
   line-height: 1;
   z-index: -3;
