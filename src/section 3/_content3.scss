@@ -1,34 +1,50 @@
 .chapter_3{
     .wra{
+        margin: 0px   0px  270px  0px;/* выравнивания по центру */
        
-        z-index: -1;
     }
     .exa_cont{
         padding: 0px 15px ;/* отступ безопасности слева справа */
         margin: 0px auto;/* выравнивания по центру */
         max-width: 65.625rem;/* максимальная ширена ограничешего контейнера по макету 1020рх+отступ по 15 с стороны тойсть 30рх и эио разделить на 16 размер шривта по умалчанию */
     }
+    .exa_background{
+        background: url(../images/8.png) no-repeat;
+        z-index: -1;
+        position: relative;
+        height: 351px;
+        max-width: 100%;
+        background-size: 100% 100%;
+    }
 }
 .chapter_3-boxtext{
-    top: -150px;
+    top: 48px;
     position: relative;
-	margin: 0px 0px 25px 0px ;
-	max-width: 46.875rem;
+	
 }
 .chapter_3-text1{
-	font-family: 'Amatic SC';
+    margin: 0px auto;/* выравнивания по центру */
+    width: 380px;
+	font-family: 'Amatic';
 font-size: 33.4px;
 line-height: 66px;
 font-weight: 700;
 text-transform: uppercase;
 letter-spacing: 0.16em;
 color: #ffffff;
+text-align: center;
+span {
+    font-size: 62.5px;
+letter-spacing: normal;
+  }
 }
 .chapter_3-text2{
+    margin: 21px 0px 0px 0px ;
 	font-family: "Montserrat";
 font-size: 20.9px;
 line-height: 33px;
 font-weight: 400;
 color: #ffffff;
+text-align: center;
 }
 

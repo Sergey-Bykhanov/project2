@@ -483,7 +483,8 @@ a :active {
   color: #2ea2d0; }
 
 .chapter_3 .wra {
-  z-index: -1; }
+  margin: 0px   0px  270px  0px;
+  /* выравнивания по центру */ }
 
 .chapter_3 .exa_cont {
   padding: 0px 15px;
@@ -493,27 +494,42 @@ a :active {
   max-width: 65.625rem;
   /* максимальная ширена ограничешего контейнера по макету 1020рх+отступ по 15 с стороны тойсть 30рх и эио разделить на 16 размер шривта по умалчанию */ }
 
-.chapter_3-boxtext {
-  top: -150px;
+.chapter_3 .exa_background {
+  background: url(../images/8.png) no-repeat;
+  z-index: -1;
   position: relative;
-  margin: 0px 0px 25px 0px;
-  max-width: 46.875rem; }
+  height: 351px;
+  max-width: 100%;
+  background-size: 100% 100%; }
+
+.chapter_3-boxtext {
+  top: 48px;
+  position: relative; }
 
 .chapter_3-text1 {
-  font-family: 'Amatic SC';
+  margin: 0px auto;
+  /* выравнивания по центру */
+  width: 380px;
+  font-family: 'Amatic';
   font-size: 33.4px;
   line-height: 66px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.16em;
-  color: #ffffff; }
+  color: #ffffff;
+  text-align: center; }
+  .chapter_3-text1 span {
+    font-size: 62.5px;
+    letter-spacing: normal; }
 
 .chapter_3-text2 {
+  margin: 21px 0px 0px 0px;
   font-family: "Montserrat";
   font-size: 20.9px;
   line-height: 33px;
   font-weight: 400;
-  color: #ffffff; }
+  color: #ffffff;
+  text-align: center; }
 
 body {
   line-height: 1;
@@ -524,6 +540,13 @@ body {
 
 .wrapper {
   min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   overflow: hidden; }
 
 #button {
@@ -563,7 +586,7 @@ body {
   opacity: 1;
   visibility: visible; }
 
-.exa_items img {
+img {
   position: absolute;
   left: 0;
   top: 0;
