@@ -482,6 +482,9 @@ a :active {
   letter-spacing: 0.16em;
   color: #2ea2d0; }
 
+.chapter_3 .wra {
+  z-index: -1; }
+
 .chapter_3 .exa_cont {
   padding: 0px 15px;
   /* отступ безопасности слева справа */
@@ -491,6 +494,8 @@ a :active {
   /* максимальная ширена ограничешего контейнера по макету 1020рх+отступ по 15 с стороны тойсть 30рх и эио разделить на 16 размер шривта по умалчанию */ }
 
 .chapter_3-boxtext {
+  top: -150px;
+  position: relative;
   margin: 0px 0px 25px 0px;
   max-width: 46.875rem; }
 

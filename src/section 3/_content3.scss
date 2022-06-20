@@ -1,4 +1,8 @@
 .chapter_3{
+    .wra{
+       
+        z-index: -1;
+    }
     .exa_cont{
         padding: 0px 15px ;/* отступ безопасности слева справа */
         margin: 0px auto;/* выравнивания по центру */
@@ -6,6 +10,8 @@
     }
 }
 .chapter_3-boxtext{
+    top: -150px;
+    position: relative;
 	margin: 0px 0px 25px 0px ;
 	max-width: 46.875rem;
 }
