@@ -27,6 +27,8 @@ body{
 }
 .wrapper{
 	min-height: 100%;
+   display: flex;
+   flex-direction: column;
 	overflow: hidden;
 }
 #button {
@@ -65,7 +67,7 @@ body{
     opacity: 1;
     visibility: visible;
  }
- .exa_items img {
+ img {
    position: absolute;
    left: 0;
    top: 0;

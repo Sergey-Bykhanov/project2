@@ -483,7 +483,8 @@ a :active {
   color: #2ea2d0; }
 
 .chapter_3 .wra {
-  z-index: -1; }
+  margin: 0px   0px  270px  0px;
+  /* выравнивания по центру */ }
 
 .chapter_3 .exa_cont {
   padding: 0px 15px;
@@ -493,10 +494,14 @@ a :active {
   max-width: 65.625rem;
   /* максимальная ширена ограничешего контейнера по макету 1020рх+отступ по 15 с стороны тойсть 30рх и эио разделить на 16 размер шривта по умалчанию */ }
 
-.chapter_3-boxtext {
-  top: -150px;
+.chapter_3 .exa_background {
+  z-index: -1;
   position: relative;
-  margin: 0px 0px 25px 0px;
+  height: 110px; }
+
+.chapter_3-boxtext {
+  top: 90px;
+  position: relative;
   max-width: 46.875rem; }
 
 .chapter_3-text1 {
@@ -524,6 +529,13 @@ body {
 
 .wrapper {
   min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
   overflow: hidden; }
 
 #button {
@@ -563,7 +575,7 @@ body {
   opacity: 1;
   visibility: visible; }
 
-.exa_items img {
+img {
   position: absolute;
   left: 0;
   top: 0;
