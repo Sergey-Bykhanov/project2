@@ -485,7 +485,7 @@ a :active {
   color: #2ea2d0; }
 
 .chapter_3 .wra {
-  margin: 61px   0px  270px  0px;
+  margin: 61px   0px  0px  0px;
   /* выравнивания по центру */ }
 
 .chapter_3 .exa_cont {
@@ -532,6 +532,94 @@ a :active {
   font-weight: 400;
   color: #ffffff;
   text-align: center; }
+
+.chapter_4 .exa_background {
+  background-color: white;
+  z-index: 3;
+  width: 100%; }
+
+.chapter_4 .exa {
+  padding: 91px 00px 130px 0px;
+  /* отступ сверху низу */ }
+
+.chapter_4 .column_1 {
+  width: 630px;
+  margin: 0px 170px 0px 0px;
+  padding: 89px 20px 0px 170px; }
+  .chapter_4 .column_1 .point-size_1 {
+    width: 630px;
+    height: 265px; }
+
+.chapter_4 .column_2 {
+  padding: 0px 10px 0px 10px;
+  margin: 0px 35px 0px 0px;
+  width: 342px; }
+  .chapter_4 .column_2 .point-size_2 {
+    width: 342px;
+    height: 424px;
+    position: relative; }
+    .chapter_4 .column_2 .point-size_2:before {
+      content: "";
+      background: url("./../images/11.png") 0 0/100% no-repeat;
+      position: absolute;
+      z-index: 5;
+      width: 87px;
+      height: 174px;
+      top: 5px;
+      left: 290px; }
+
+.chapter_4-text1 {
+  font-family: "Amatic";
+  font-size: 54.2px;
+  line-height: 66px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #452a31; }
+
+.chapter_4-text2 {
+  margin: 11px 0px 0px 0px;
+  font-family: "Montserrat";
+  font-size: 20.9px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #000000; }
+
+.chapter_4-text3 {
+  margin: 38px 0px 0px 0px;
+  width: 165px;
+  padding: 21px 21px 20px 21px;
+  font-family: "Montserrat";
+  font-size: 16.7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2ea2d0;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer; }
+  .chapter_4-text3:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s; }
+  .chapter_4-text3:focus:after, .chapter_4-text3:hover:after {
+    content: "";
+    background: #0072a8;
+    /*фон будет томатный*/
+    top: -5px;
+    /*сдвигаем блок по нажатию и по наведению в верх*/
+    height: calc(100% + 5px);
+    /*математическая функция прибаления высоты + 5px*/ }
+  .chapter_4-text3 p {
+    position: relative;
+    z-index: 9; }
 
 body {
   line-height: 1;
