@@ -7,8 +7,6 @@
   .exa {
     padding: 115px 00px 60px 0px; /* отступ сверху низу */
   }
-}
-.chapter_2 {
   .column_1 {
     width: 475px;
   }
@@ -24,6 +22,17 @@
       width: 475px;
       height: 472px;
       position: relative;
+      &:before {
+        content: "";
+        background: url("./../images/9.png") 0 0/100% no-repeat;
+        position: absolute;
+      
+        z-index: 99;
+        width: 237px;
+        height: 177px;
+        top: 462px;
+        left: 38px;
+      }
     }
     img {
       position: absolute;
@@ -49,6 +58,7 @@
     }
   }
 }
+
 .chapter_2-text1 {
   position: absolute;
   z-index: 9;

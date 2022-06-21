@@ -300,13 +300,6 @@ a :active {
   min-width: 350px;
   /* 290 на 16размер шривта */ }
 
-.items-exa_body {
-  position: relative;
-  width: 447px;
-  height: 490px;
-  padding-top: 56.25%;
-  /* 16:9 Aspect Ratio */ }
-
 .chapter_1 .column_1,
 .chapter_1 .column_2,
 .chapter_1 .column_3 {
@@ -427,6 +420,15 @@ a :active {
   width: 475px;
   height: 472px;
   position: relative; }
+  .chapter_2 .column_1 .point-size_1:before {
+    content: "";
+    background: url("./../images/9.png") 0 0/100% no-repeat;
+    position: absolute;
+    z-index: 99;
+    width: 237px;
+    height: 177px;
+    top: 462px;
+    left: 38px; }
 
 .chapter_2 .column_1 img {
   position: absolute;
