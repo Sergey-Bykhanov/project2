@@ -1,0 +1,112 @@
+//текст
+.chapter_5-text1 {
+  font-family: "Amatic";
+  font-size: 33.4px;
+  line-height: 45px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #452a31;
+}
+.chapter_5-text2 {
+  font-family: "Montserrat";
+  font-size: 20.9px;
+  line-height: 33px;
+  font-weight: 400;
+  color: #3d3d3d;
+}
+.chapter_5-text3 {
+  font-family: "Montserrat";
+  font-size: 12.5px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.chapter_5 {
+  .column_3 {
+    .chapter_5-text2 {
+      font-size: 16.7px;
+    }
+  }
+}
+
+//позиционирование
+.chapter_5 {
+  .exa_background {
+    background-color: #f0f0f0;
+    z-index: 3;
+    width: 100%;
+  }
+  .exa {
+    margin: 117px 0px 111px 0px;
+  }
+  .column_1 {
+    width: 357px;
+    margin: 93px 0px 0px 7px;
+    padding: 0px 20px;
+    .point-size_1 {
+      padding: 0px 0px 15px 0px;
+      margin: 0px 0px 5px 0px;
+    }
+    .point-size_2 {
+      max-width: 352px;
+      padding: 10px 0px 18px 0px;
+      border-bottom: 1px solid #7f7f7f;
+      position: relative;
+      input {
+        background-color: #f0f0f0;
+      }
+      &::after {
+        content: "";
+        background: url("./../images/13.png") 0 0/100% no-repeat;
+        position: absolute;
+        cursor: pointer;
+        z-index: 9;
+        width: 15px;
+        height: 15px;
+        top: 20px;
+        left: 333px;
+      }
+      &:before {
+        content: "";
+        background: url("./../images/14.png") 0 0/100% no-repeat;
+        position: absolute;
+        cursor: pointer;
+        z-index: 9;
+        width: 6px;
+        height: 6px;
+        top: 32px;
+        left: 346px;
+      }
+    }
+    .point-size_3 {
+      width: 225px;
+    }
+  }
+  .column_2 {
+    margin: -117px 0px 0px 0px;
+    padding: 0px 0px 128px 0px;
+    .point-size_1 {
+      width: 342px;
+      height: 524px;
+      position: relative;
+    }
+  }
+  .column_3 {
+    width: 395px;
+    margin: 93px 0px 60px 0px;
+    padding: 0px 10px;
+    .point-size_1 {
+      padding: 0px 0px 3px 0px;
+      margin: 0px 0px 5px 0px;
+    }
+    .point-size_2 {
+      max-width: 450px;
+      padding: 5px 0px 3px 0px;
+      margin: 0px 0px 14px 0px;
+    }
+    .point-size_3 {
+      width: 149px;
+    }
+  }
+}
