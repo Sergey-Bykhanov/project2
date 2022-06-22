@@ -1,0 +1,50 @@
+//текст
+.chapter_6-text1 {
+    font-family: 'Amatic';
+    font-size: 33.4px;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #452a31;
+  }
+  .chapter_6-text2 {
+    font-family: "Montserrat";
+    font-size: 16.7px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #3d3d3d;
+  }
+  .chapter_6-text3 {
+    font-family: "Montserrat";
+    font-size: 12.5px;
+    line-height: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #ffffff;
+  }
+  
+  //позиционирование
+  .chapter_6 {
+    .exa_background {
+      background-color: #b1ca41;
+      z-index: 3;
+      width: 100%;
+    }
+    .exa {
+      margin: 0px 0px 0px 0px;
+    }
+    .column_1 {
+      width: 354px;
+
+      .point-size_1 {
+        width: 354px;
+        height: 322px;
+
+      }
+      
+      }
+      
+  }
+  
