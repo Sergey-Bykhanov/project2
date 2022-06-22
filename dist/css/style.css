@@ -899,13 +899,11 @@ a :active {
 }
 
 .chapter_6 .column_1 {
-  width: 354px;
-}
-.chapter_6 .column_1 .point-size_1 {
-  width: 354px;
-  height: 322px;
-}
-
+  width: 354px; }
+  .chapter_6 .column_1 .point-size_1 {
+    position: relative;
+    width: 354px;
+    height: 322px; }
 body {
   line-height: 1;
   z-index: -3;
@@ -936,9 +934,18 @@ body {
   position: fixed;
   bottom: 30px;
   right: 30px;
+<<<<<<< HEAD
   -webkit-transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   -o-transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+=======
+  -webkit-transition: background-color .3s, 
+ opacity .5s, visibility .5s;
+  -o-transition: background-color .3s, 
+ opacity .5s, visibility .5s;
+  transition: background-color .3s, 
+ opacity .5s, visibility .5s;
+>>>>>>> секция-6
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
