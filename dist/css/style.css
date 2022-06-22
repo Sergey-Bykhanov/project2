@@ -934,18 +934,9 @@ body {
   position: fixed;
   bottom: 30px;
   right: 30px;
-<<<<<<< HEAD
   -webkit-transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   -o-transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
   transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
-=======
-  -webkit-transition: background-color .3s, 
- opacity .5s, visibility .5s;
-  -o-transition: background-color .3s, 
- opacity .5s, visibility .5s;
-  transition: background-color .3s, 
- opacity .5s, visibility .5s;
->>>>>>> секция-6
   opacity: 0;
   visibility: hidden;
   z-index: 1000;
