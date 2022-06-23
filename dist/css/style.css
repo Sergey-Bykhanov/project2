@@ -748,11 +748,22 @@ a :active {
   margin: 0px 0px 0px 0px; }
 
 .chapter_6 .column_1 {
-  width: 354px; }
+  width: 354px;
+  margin: 0px 20px 20px 222px; }
   .chapter_6 .column_1 .point-size_1 {
     position: relative;
     width: 354px;
     height: 322px; }
+
+.chapter_6 .column_2 {
+  max-width: 545px;
+  margin: 0px 299px 0px 0px; }
+  .chapter_6 .column_2 .point-size_1 {
+    max-width: 413px; }
+  .chapter_6 .column_2 .point-size_2 {
+    max-width: 555px; }
+  .chapter_6 .column_2 .point-size_3 {
+    max-width: 218px; }
 
 body {
   line-height: 1;

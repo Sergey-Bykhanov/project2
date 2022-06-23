@@ -37,7 +37,7 @@
     }
     .column_1 {
       width: 354px;
-
+      margin: 0px 20px 20px 222px;
       .point-size_1 {
         position: relative;
         width: 354px;
@@ -46,6 +46,20 @@
       }
       
       }
-      
+      .column_2 {
+        max-width: 545px;
+        margin: 0px 299px 0px 0px;
+        .point-size_1 {
+          max-width: 413px;
+        }
+        .point-size_2 {
+          
+          max-width: 555px;
+        }
+        .point-size_3 {
+          
+          max-width:218px;
+        }
+        }
   }
   
