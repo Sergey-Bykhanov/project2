@@ -6,11 +6,7 @@
     z-index: 3;
     width: 100%;
     height: 657px;
-    background: linear-gradient(
-      87deg,
-      rgba(186, 223, 241, 1) 0%,
-      rgba(113, 171, 198, 1) 100%
-    );
+    background-image: radial-gradient(circle at 0 0, #c9ebfb, #73acc7);
   }
   .exa {
     padding: 200px 0px; /* отступ сверху низу */

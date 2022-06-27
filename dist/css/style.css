@@ -69,7 +69,7 @@ a :active {
 @font-face {
   src: url("../fonts/Amatic_SC/AmaticSC-Bold.ttf") format("woff2");
   font-family: "Amatic";
-  font-weight: 700;
+  font-weight: bold;
   font-style: normal; }
 
 @font-face {
@@ -260,9 +260,9 @@ a :active {
   z-index: 3;
   width: 100%;
   height: 657px;
-  background: -webkit-linear-gradient(3deg, #badff1 0%, #71abc6 100%);
-  background: -o-linear-gradient(3deg, #badff1 0%, #71abc6 100%);
-  background: linear-gradient(87deg, #badff1 0%, #71abc6 100%); }
+  background-image: -webkit-radial-gradient(0 0, circle, #c9ebfb, #73acc7);
+  background-image: -o-radial-gradient(0 0, circle, #c9ebfb, #73acc7);
+  background-image: radial-gradient(circle at 0 0, #c9ebfb, #73acc7); }
 
 .chapter_1 .exa {
   padding: 200px 0px;
@@ -715,19 +715,25 @@ a :active {
     width: 149px; }
 
 .chapter_6-text1 {
-  font-family: 'Amatic';
-  font-size: 33.4px;
-  line-height: 45px;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.06em;
+  font-family: "Amatic";
+  font-size: 38.9px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: 1.54px;
+  text-align: left;
   color: #452a31; }
 
 .chapter_6-text2 {
   font-family: "Montserrat";
-  font-size: 16.7px;
-  line-height: 20px;
-  font-weight: 400;
+  font-size: 16.54px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.24;
+  letter-spacing: normal;
+  text-align: left;
   color: #3d3d3d; }
 
 .chapter_6-text3 {
@@ -739,31 +745,31 @@ a :active {
   letter-spacing: 0.06em;
   color: #ffffff; }
 
-.chapter_6 .exa_background {
-  background-color: #b1ca41;
-  z-index: 3;
-  width: 100%; }
-
 .chapter_6 .exa {
   margin: 0px 0px 0px 0px; }
 
 .chapter_6 .column_1 {
   width: 354px;
-  margin: 0px 20px 20px 222px; }
+  margin: 00px 5px 105px 151px; }
   .chapter_6 .column_1 .point-size_1 {
+    margin: 0px 0px 0px 100px;
     position: relative;
-    width: 354px;
+    width: 330px;
     height: 322px; }
 
 .chapter_6 .column_2 {
-  max-width: 545px;
-  margin: 0px 299px 0px 0px; }
+  margin: 40px 160px 0px -10px;
+  width: 537px; }
   .chapter_6 .column_2 .point-size_1 {
-    max-width: 413px; }
+    width: 430px;
+    margin: 2px 0px 10px 0px; }
   .chapter_6 .column_2 .point-size_2 {
-    max-width: 555px; }
+    width: 565px;
+    margin: 16px 0px 0px 1px; }
   .chapter_6 .column_2 .point-size_3 {
-    max-width: 218px; }
+    width: 213px;
+    padding: 4px 27px 4px 26px;
+    margin: 28px 0px 0px 0px; }
 
 body {
   line-height: 1;
@@ -828,8 +834,6 @@ img {
   height: auto; }
 
 .button-Link {
-  margin: 35px 0px 0px 0px;
-  padding: 21px 21px 20px 21px;
   color: #ffffff;
   background-color: #2ea2d0;
   position: relative;
