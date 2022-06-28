@@ -498,7 +498,6 @@ a :active {
 
 .chapter_3 .exa_background {
   background: url(../images/8.png) no-repeat;
-  z-index: -1;
   position: relative;
   height: 351px;
   max-width: 100%;
@@ -771,11 +770,8 @@ a :active {
     padding: 4px 27px 4px 26px;
     margin: 28px 0px 0px 0px; }
 
-.chapter_7 .wra {
-  margin: 0px 0px 0px 0px;
-  /* выравнивания по центру */ }
-
 .chapter_7 .exa_cont {
+  position: relative;
   padding: 0px 15px;
   /* отступ безопасности слева справа */
   margin: 0px auto;
@@ -785,7 +781,6 @@ a :active {
 
 .chapter_7 .exa_background {
   background: url(../images/15.jpg) no-repeat;
-  z-index: -1;
   position: relative;
   height: 525px;
   max-width: 100%;
@@ -795,7 +790,6 @@ a :active {
     content: "";
     background: url("./../images/16.png") 0 0/100% no-repeat;
     position: absolute;
-    z-index: 99;
     width: 417px;
     height: 358px;
     top: 13.5px;
@@ -804,7 +798,6 @@ a :active {
     content: "";
     background: url("./../images/01.png") 0 0/100% no-repeat;
     position: absolute;
-    z-index: 99;
     width: 256px;
     height: 64px;
     top: 180px;
@@ -821,7 +814,7 @@ a :active {
   -ms-grid-columns: 200px 200px;
   grid-template-columns: 200px 200px; }
   .line-text p {
-    margin: 0px 5px  0px  5px; }
+    margin: 0px 5px 0px 5px; }
   .line-text p:nth-child(2) {
     margin: 0px 0px 0px 23px; }
   .line-text p:nth-child(4) {
@@ -853,6 +846,31 @@ a :active {
   text-align: left;
   color: #010101; }
 
+.chapter_7-boxicon {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  z-index: 9;
+  width: 256px;
+  top: 358px;
+  right: -63.4vw; }
+  .chapter_7-boxicon a {
+    width: 40px;
+    height: 40px;
+    margin: 0px 2px;
+    z-index: 9; }
+  .chapter_7-boxicon a:nth-child(3) {
+    margin: 0px -2px 0px 0px; }
+  .chapter_7-boxicon a:nth-child(4) {
+    margin: 0px -2px 0px 0px; }
+  .chapter_7-boxicon svg {
+    width: 29px;
+    height: 29px;
+    fill: #2ea2d0; }
+    .chapter_7-boxicon svg:hover {
+      fill: #0072a8; }
+
 body {
   line-height: 1;
   z-index: -3;
@@ -873,14 +891,14 @@ body {
 
 #button {
   display: inline-block;
-  background-color: #0072a8;
+  background-color: #2ea2d0;
   width: 50px;
   height: 50px;
   text-align: center;
   border-radius: 4px;
   position: fixed;
-  bottom: 30px;
-  right: 30px;
+  bottom: 25px;
+  right: 24px;
   -webkit-transition: background-color .3s,  opacity .5s, visibility .5s;
   -o-transition: background-color .3s,  opacity .5s, visibility .5s;
   transition: background-color .3s,  opacity .5s, visibility .5s;
@@ -899,10 +917,10 @@ body {
 
 #button:hover {
   cursor: pointer;
-  background-color: #333; }
+  background-color: #0072a8; }
 
 #button:active {
-  background-color: #555; }
+  background-color: #0072a8; }
 
 #button.show {
   opacity: 1;

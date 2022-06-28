@@ -1,15 +1,13 @@
 .chapter_7 {
-  .wra {
-    margin: 0px 0px 0px 0px; /* выравнивания по центру */
-  }
   .exa_cont {
+    position: relative;
     padding: 0px 15px; /* отступ безопасности слева справа */
     margin: 0px auto; /* выравнивания по центру */
     max-width: 65.625rem; /* максимальная ширена ограничешего контейнера по макету 1020рх+отступ по 15 с стороны тойсть 30рх и эио разделить на 16 размер шривта по умалчанию */
   }
   .exa_background {
     background: url(../images/15.jpg) no-repeat;
-    z-index: -1;
+   
     position: relative;
     height: 525px;
     max-width: 100%;
@@ -20,7 +18,7 @@
       background: url("./../images/16.png") 0 0/100% no-repeat;
       position: absolute;
 
-      z-index: 99;
+     
       width: 417px;
       height: 358px;
       top: 13.5px;
@@ -31,7 +29,7 @@
       background: url("./../images/01.png") 0 0/100% no-repeat;
       position: absolute;
 
-      z-index: 99;
+     
       width: 256px;
       height: 64px;
       top: 180px;
@@ -48,7 +46,7 @@
   display: grid;
   grid-template-columns: 200px 200px;
   p {
-    margin: 0px 5px  0px  5px;
+    margin: 0px 5px 0px 5px;
   }
   p:nth-child(2) {
     margin: 0px 0px 0px 23px;
@@ -57,8 +55,8 @@
     margin: 0px 0px 0px -30px;
   }
 }
-.chapter_7-text2_position{
-    margin: 20px 10px 0px 5px;
+.chapter_7-text2_position {
+  margin: 20px 10px 0px 5px;
 }
 .chapter_7-text1 {
   font-family: "Montserrat";
@@ -83,6 +81,31 @@
   text-align: left;
   color: #010101;
 }
-.chapter_7-boxicon{
-
+.chapter_7-boxicon {
+  position: relative;
+  display: flex;
+  z-index: 9;
+  width: 256px;
+  top: 358px;
+  right: -63.4vw;
+  a {
+    width: 40px;
+    height: 40px;
+    margin: 0px 2px;
+    z-index: 9;
+  }
+  a:nth-child(3) {
+    margin: 0px -2px 0px 0px;
+  }
+  a:nth-child(4) {
+    margin: 0px -2px 0px 0px;
+  }
+  svg {
+    width: 29px;
+    height: 29px;
+    fill: #2ea2d0;
+    &:hover {
+      fill: #0072a8;
+    }
+  }
 }
