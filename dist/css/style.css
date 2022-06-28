@@ -750,7 +750,7 @@ a :active {
 
 .chapter_6 .column_1 {
   width: 354px;
-  margin: 00px 5px 105px 151px; }
+  margin: 00px 5px 85px 151px; }
   .chapter_6 .column_1 .point-size_1 {
     margin: 0px 0px 0px 100px;
     position: relative;
@@ -770,6 +770,88 @@ a :active {
     width: 213px;
     padding: 4px 27px 4px 26px;
     margin: 28px 0px 0px 0px; }
+
+.chapter_7 .wra {
+  margin: 0px 0px 0px 0px;
+  /* выравнивания по центру */ }
+
+.chapter_7 .exa_cont {
+  padding: 0px 15px;
+  /* отступ безопасности слева справа */
+  margin: 0px auto;
+  /* выравнивания по центру */
+  max-width: 65.625rem;
+  /* максимальная ширена ограничешего контейнера по макету 1020рх+отступ по 15 с стороны тойсть 30рх и эио разделить на 16 размер шривта по умалчанию */ }
+
+.chapter_7 .exa_background {
+  background: url(../images/15.jpg) no-repeat;
+  z-index: -1;
+  position: relative;
+  height: 525px;
+  max-width: 100%;
+  background-size: 100% 100%;
+  margin: 0px 57px 0px 57px; }
+  .chapter_7 .exa_background:after {
+    content: "";
+    background: url("./../images/16.png") 0 0/100% no-repeat;
+    position: absolute;
+    z-index: 99;
+    width: 417px;
+    height: 358px;
+    top: 13.5px;
+    left: 590px; }
+  .chapter_7 .exa_background:before {
+    content: "";
+    background: url("./../images/01.png") 0 0/100% no-repeat;
+    position: absolute;
+    z-index: 99;
+    width: 256px;
+    height: 64px;
+    top: 180px;
+    left: 680px; }
+
+.chapter_7-boxtext {
+  top: 380px;
+  left: 50%;
+  position: relative; }
+
+.line-text {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 200px 200px;
+  grid-template-columns: 200px 200px; }
+  .line-text p {
+    margin: 0px 5px  0px  5px; }
+  .line-text p:nth-child(2) {
+    margin: 0px 0px 0px 23px; }
+  .line-text p:nth-child(4) {
+    margin: 0px 0px 0px -30px; }
+
+.chapter_7-text2_position {
+  margin: 20px 10px 0px 5px; }
+
+.chapter_7-text1 {
+  font-family: "Montserrat";
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.24;
+  letter-spacing: 2.72px;
+  text-align: left;
+  color: #452a31;
+  text-transform: uppercase; }
+
+.chapter_7-text2 {
+  font-family: "Montserrat";
+  font-size: 17px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  color: #010101; }
 
 body {
   line-height: 1;
